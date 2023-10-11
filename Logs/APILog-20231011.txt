@@ -1,0 +1,6 @@
+2023-10-11 14:20:13.222 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 95.4398 ms
+2023-10-11 14:20:13.489 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 163.2813 ms
+2023-10-11 14:20:26.958 +03:00 [INF] HTTP POST /api/Order/Create-Order responded 400 in 264.1587 ms
+2023-10-11 14:20:26.966 +03:00 [INF] HTTP POST /api/Order/Create-Order responded 400 in 292.7137 ms
+2023-10-11 14:20:39.337 +03:00 [INF] HTTP POST /api/Order/Create-Order responded 400 in 6.8884 ms
+2023-10-11 14:20:39.338 +03:00 [INF] HTTP POST /api/Order/Create-Order responded 400 in 9.3880 ms

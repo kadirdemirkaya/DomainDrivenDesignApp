@@ -1,0 +1,451 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Api\\FlavorWorld.Api.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Api\\FlavorWorld.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Api\\FlavorWorld.Api.csproj",
+        "projectName": "FlavorWorld.Api",
+        "projectPath": "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Api\\FlavorWorld.Api.csproj",
+        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Application\\FlavorWorld.Application.csproj": {
+                "projectPath": "C:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Application\\FlavorWorld.Application.csproj"
+              },
+              "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Contracts\\FlavorWorld.Contracts.csproj": {
+                "projectPath": "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Contracts\\FlavorWorld.Contracts.csproj"
+              },
+              "C:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Infrastructure\\FlavorWorld.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Infrastructure\\FlavorWorld.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Application\\FlavorWorld.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Application\\FlavorWorld.Application.csproj",
+        "projectName": "FlavorWorld.Application",
+        "projectPath": "C:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Application\\FlavorWorld.Application.csproj",
+        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Contracts\\FlavorWorld.Contracts.csproj": {
+                "projectPath": "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Contracts\\FlavorWorld.Contracts.csproj"
+              },
+              "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Domain\\FlavorWorld.Domain.csproj": {
+                "projectPath": "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Domain\\FlavorWorld.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "ElasticSearchCommon": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "RedisCrudCommon": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Contracts\\FlavorWorld.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Contracts\\FlavorWorld.Contracts.csproj",
+        "projectName": "FlavorWorld.Contracts",
+        "projectPath": "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Contracts\\FlavorWorld.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Domain\\FlavorWorld.Domain.csproj": {
+                "projectPath": "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Domain\\FlavorWorld.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Domain\\FlavorWorld.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Domain\\FlavorWorld.Domain.csproj",
+        "projectName": "FlavorWorld.Domain",
+        "projectPath": "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Domain\\FlavorWorld.Domain.csproj",
+        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Infrastructure\\FlavorWorld.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Infrastructure\\FlavorWorld.Infrastructure.csproj",
+        "projectName": "FlavorWorld.Infrastructure",
+        "projectPath": "C:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Infrastructure\\FlavorWorld.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Casper\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Casper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Application\\FlavorWorld.Application.csproj": {
+                "projectPath": "C:\\Users\\Casper\\Desktop\\GitHub Projects\\DomainDrivenDesign\\src\\FlavorWorld\\FlavorWorld.Application\\FlavorWorld.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.Redis": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "AspNetCore.HealthChecks.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "ElasticSearchCommon": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "RedisCrudCommon": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
